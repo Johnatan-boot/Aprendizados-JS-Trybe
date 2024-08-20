@@ -79,10 +79,33 @@ document.write(
 +adicionaCarros + " Carros adicionados em nosso estoque<br>");
 
 console.log(subtraiCarros + " Carros subtraido em nosso estoque");
-document.write(subtraiCarros + " Carro removido em nosso estoque");
+document.write(subtraiCarros + " Carro removido em nosso estoque<br>");
 
 console.log(multiplicaCarros + " Carros Multiplicado em nosso estoque");
 console.log(divisaoCarros + " Carros dividido em nosso estoque");
 
 
 
+//Criada uma variavel estoque de veiculos abastecidos
+let estoqueVeiculosAbastecidos = 100;
+//Criada uma variavel estoque de veiculos em falta
+let estoqueVeiculosEscasso = 0; 
+
+//Operadores de Comparação  Verifica  > se um elemento é maior que outro
+//retornará o que for especificado em document.write
+estoqueVeiculosAbastecidos > estoqueVeiculosEscasso;
+document.write(
+"Estoque Abastecido com Sucesso ! : "+    
+estoqueVeiculosAbastecidos +" Unidades<br>");
+
+estoqueVeiculosEscasso < estoqueVeiculosAbastecidos;
+document.write(
+"Estoque Em falta, Reponha seu estoque urgente! : "+    
+estoqueVeiculosEscasso +" Unidades<br>");
+
+const veiculo = 'Dodger Charger';
+
+const verificaTipoVeiculo = veiculo === 'Dodger Charger';
+
+document.write("Afirmação Correta, é um Veiculo do Tipo Carro e do modelo: "+veiculo+
+": "+verificaTipoVeiculo);
