@@ -109,3 +109,77 @@ const verificaTipoVeiculo = veiculo === 'Dodger Charger';
 
 document.write("Afirmação Correta, é um Veiculo do Tipo Carro e do modelo: "+veiculo+
 ": "+verificaTipoVeiculo);
+document.write(" <br>");
+
+/*
+//Verificação de quando o setor de  Compras fará pedido para estoque
+let dataCompras = true
+let dataNaoCompras = false
+let tarefaCompras;
+tarefaCompras = dataCompras && dataNaoCompras
+console.log(tarefaCompras+": HOJE NÃO É DIA DE FAZER COMPRAS!");
+
+//Foram atendidas as 2 condições como TRUE por isso o operador and responde como verdadeiro a condição
+//sim hoje é dia de fazer compras
+tarefaCompras = estoqueVeiculosAbastecidos && dataCompras
+console.log(tarefaCompras+"HOJE É DIA DE FAZER COMPRAS!");
+
+
+//ESTA É A LOGICA PARA O SETOR DE COMPRAS  NÃO COMPRAR VEICULOS============================
+document.write(tarefaCompras = estoqueVeiculosAbastecidos && dataNaoCompras
++ "<h2>Tarefa:Hoje é dia de fazer Compras ?</h2>" 
+);
+document.write("O dia de fazer compras é no dia 30 de cada mês: ")
+
+//ESTA É A LOGICA PARA O SETOR DE COMPRAS  NÃO COMPRAR VEICULOS============================
+
+
+
+//ESTA É A LOGICA PARA O SETOR DE COMPRAS   COMPRAR VEICULOS============================
+
+document.write(tarefaCompras = estoqueVeiculosAbastecidos && dataCompras
+
+ + "<h2>Tarefa:Hoje é dia de fazer Compras ?</h2>" 
+ +tarefaCompras + " : Hoje é dia de fazer compras!<br>");
+ document.write("Hoje é dia 30, e o estoque está em falta: ")
+
+ //ESTA É A LOGICA PARA O SETOR DE COMPRAS   COMPRAR VEICULOS============================
+*/
+
+
+
+//======================= operadores logicos AND && ===============
+
+let naoEdiadeCompras = false;
+let diadeCompras    = true;
+let decisaoCompras;
+
+//Com as variáveis definidas, podemos usar o operador && (AND).
+let decisaodeCompras = naoEdiadeCompras && diadeCompras
+//console.log(decisaoCompras); // false
+//sempre será negativo condição
+document.write("<h2>Tarefa:Hoje é dia de fazer Compras ?</h2>"
++decisaodeCompras+": hoje não é dia de fazer compras, estoque possui alguns produtos diponiveis.");
+document.write(": "+estoqueVeiculosAbastecidos+" itens")
+document.write("<h2>Tarefa:Hoje é dia de fazer Compras ?</h2>"
+    +diadeCompras+": hoje é dia de fazer compras e abastecer seu estoque.");
+    document.write(": "+estoqueVeiculosEscasso+" itens");
+
+
+
+// ==============  Operador OR - || =================
+
+
+let PagamentoCredito = false;
+let PagamentoDebito = true;
+let formaPagamento = PagamentoDebito || PagamentoCredito;
+//console.log(formaPagamento); // true
+
+document.write(
+    
+"<br> Qual  a forma de pagamento, será no Debito? "+formaPagamento);
+    
+
+document.write(
+    
+    "<br> Qual  a forma de pagamento, será no Crédito? "+PagamentoCredito);
