@@ -183,3 +183,70 @@ document.write(
 document.write(
     
     "<br> Qual  a forma de pagamento, será no Crédito? "+PagamentoCredito);
+
+    
+ /*-------------
+ ULTILIZANDO O OPERADOR NOT SEMPRE SERÁ RESPOSTA NEGATIVA
+ OU FALSE
+ 
+ ================================= OPERADOR NOT !=*/
+ 
+let compreiCarro = true;
+let naoCompreicarro = false;
+let estadoEmocional = !compreiCarro;
+document.write(estadoEmocional);
+
+document.
+write
+(
+"<br>Consegui realizar o sonho de comprar meu primeiro Carro! "
++true)
+
+document.
+write
+(
+"<br>Infelizmente não consegui realizar o sonho de comprar meu primeiro Carro! "
++true)
+
+document.
+write
+(
+"<br>Consegui dinheiro o suficiente para comprar meu primeiro Carro? "
++estadoEmocional)
+
+/*====================== IF/ ELSE======================================*/
+const modeloCarroDisponivel = 'Fiat Argo'; //ALTERE AQUI A MUDANÇA DO QUE SERÁ APRENSENTADO
+
+if (modeloCarroDisponivel === 'Fiat Punto') {
+  document.write('<br>Comprei um Fiat Punto na Web motors');
+} else if (modeloCarroDisponivel === 'Fiat Argo') {
+  document.write('<br>Comprei um Fiat Argo na Web motors');
+} else {
+  document.write('<br>Comprei um ' + frutaDisponivel + 'na Web motors');
+}
+
+/*====================== 
+IF/ ELSE
+Encadeamento de condicionais
+Eventualmente você vai se deparar com problemas 
+que terão mais de duas condições a serem verificadas. 
+Para atender a mais de duas condições nós utilizamos o else if.
+======================================*/
+
+const valordoVeículo = 150.000;
+
+if (valordoVeículo >= 30.000) {
+  document.write(carro_1+'<br>Veículo primeira Linha');
+} else if (valordoVeículo >= 80.000 && valordoVeículo < 80.000 ) {
+  document.write(carro_2+'<br>Veículo segunda Linha');
+} else if (valordoVeículo >= 60.000 && valordoVeículo < 60.000 ) {
+  document.write(carro_3+'<br>Veículo Linha econômica');
+} else {
+  document.write('<br>Veículo sem categoria');
+}
+
+
+
+
+
+  
