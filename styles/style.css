@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar a{
+    color: #fff;
+}
+.navbar a:hover{
+    color: #fff;
+}
+
+#nav-link{
+    color: #fff;
+}
+#nav-link:hover{
+    color: #fff;
+}
+
+div h1 {
+    font-size: 1.5em;
+}
+div h2 {
+    font-size: 1.5em;
+}
+
+.card{
+   
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.card:hover{
+    background-color: #f1f0f0;
+    transform: translateY(-10px);
+    transition:0.2s all linear;
+}
+
+.card img:hover{
+    transform: translateY(-10px);
+    transition:0.2s all linear;
+    height: 120px;
+}
+
+
+.card h5, p{
+font-size: 1em;
+
+}

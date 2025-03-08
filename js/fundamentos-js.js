@@ -9,23 +9,60 @@ veículo = 'Carro';
 //veículo = 'Navio';
 
 //Criando Constantes
-const carro_1 = 'Fiat Argo';
+//const carro_1 = 'Fiat Argo';
+let carro_1 = 'Fiat Argo';
+let descricaoModelo1 = 'Design esportivo e exclusivo até nos pequenos detalhes.'+
+'O Fiat Argo tem a essência italiana, a robustez brasileira e um estilo único ';
+
+//let carro_2 = 'Fiat Chronus';
 const carro_2 = 'Fiat Chronus';
-const carro_3 = 'Fiat Pulse';
+let descricaoModelo2 = 'Todo o estilo que só o design italiano pode proporcionar. Surpreenda a si'+
+'mesmo e a todos com o novo Cronos';
+
+//const carro_3 = 'Fiat Pulse';
+let carro_3 = 'Fiat Pulse';
+let descricaoModelo3 = 'Com uma direção fluida e excelente consumo de combustível, esse modelo é ideal para quem preza pela eficiência e economia.';
+
+
 
 //PREÇO CARROS
-const  preco_Carro_1 = 60.000;
-const preco_Carro_2 = 80.000;
-const preco_Carro_3 = 120.000;
+//const  preco_Carro_1 = 'R$'+60.00+'.000';
+let    preco_Carro_1 = 'Preço:R$'+60.00+'.000';
+
+//const preco_Carro_2 = 'R$'+80.00+'.000';
+let    preco_Carro_2 = 'Preço:R$'+80.00+'.000';
+
+//const preco_Carro_3 = 'R$'+120.00+'.000';
+let preco_Carro_3 = 'Preço:R$'+120.00+'.000';
+
+
+//EXIBINDO INFORMAÇÕES DOS MODELOS DE CARROS NOS CARDS
+document.getElementById('carro_1').innerHTML = ""+carro_1;
+document.getElementById('descricaoModelo1').innerHTML = ""+descricaoModelo1;
+document.getElementById('preco_Carro_1').innerHTML = ""+preco_Carro_1;
+
+
+document.getElementById('carro_2').innerHTML = ""+carro_2
+document.getElementById('descricaoModelo2').innerHTML = ""+descricaoModelo2;
+document.getElementById('preco_Carro_2').innerHTML = ""+preco_Carro_2;
+
+
+document.getElementById('carro_3').innerHTML = ""+carro_3
+document.getElementById('descricaoModelo3').innerHTML = ""+descricaoModelo3;
+document.getElementById('preco_Carro_3').innerHTML = ""+preco_Carro_3;
+
+
+
+
+
+
+```
 
 //Exibindo em Tela o valor das variaveis
 document.write(carro_1);
 document.write(" R$"+preco_Carro_1 +".000,00 <br>"
 +carro_2+" R$"+preco_Carro_2 +".000,00 <br>"
 + carro_3 + " R$"+preco_Carro_3 +".000,00" );
-
-
-
 
 //Exibindo o valor da Constante
 console.log(carro_1);
@@ -250,3 +287,7 @@ if (valordoVeículo >= 30.000) {
 
 
   
+
+
+
+```
